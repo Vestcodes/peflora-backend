@@ -31,11 +31,13 @@
     "@mikro-orm/knex": "6.4.3",
     "@mikro-orm/migrations": "6.4.3",
     "@mikro-orm/postgresql": "6.4.3",
+    "@perseidesjs/notification-nodemailer": "^1.1.0",
     "awilix": "^8.0.1",
     "dotenv": "^17.2.2",
     "isomorphic-fetch": "^3.0.0",
     "medusa-plugin-razorpay-v2": "^0.1.2",
     "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.6",
     "pg": "^8.13.0"
   },
   "devDependencies": {

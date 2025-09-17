@@ -2758,6 +2758,11 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-1.9.0.tgz#d03eba68273dc0f7509e2a3d5cba21eae10379fe"
   integrity sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==
 
+"@perseidesjs/notification-nodemailer@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@perseidesjs/notification-nodemailer/-/notification-nodemailer-1.1.0.tgz#d2807fb54e02b5e1efe9fafb2b99cf6121f27ebf"
+  integrity sha512-3l02IZgTTvNhZ6ikFoxe2oOxNe/nBr2ibFBL+WONPKQ21Qm0vpavkxYHitcpS/UQyTQD+e6nh63oj+XdArdR7w==
+
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
@@ -9047,6 +9052,11 @@ node-schedule@^2.1.1:
     cron-parser "^4.2.0"
     long-timeout "0.1.1"
     sorted-array-functions "^1.3.0"
+
+nodemailer@^7.0.6:
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-7.0.6.tgz#e850630242e28c64fd666c7f6ca8382baf5a5661"
+  integrity sha512-F44uVzgwo49xboqbFgBGkRaiMgtoBrBEWCVincJPK9+S9Adkzt/wXCLKbf7dxucmxfTI5gHGB+bEmdyzN6QKjw==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
