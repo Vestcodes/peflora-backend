@@ -15,7 +15,7 @@
   "scripts": {
     "build": "medusa build",
     "seed": "medusa exec ./src/scripts/seed.ts",
-    "start": "NODE_ENV=production medusa start --port ${PORT}",
+    "start": "NODE_ENV=production medusa start --port ${PORT} & node index.js",
     "dev": "medusa develop",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
     "test:integration:modules": "TEST_TYPE=integration:modules NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
@@ -32,6 +32,9 @@
     "@mikro-orm/migrations": "6.4.3",
     "@mikro-orm/postgresql": "6.4.3",
     "awilix": "^8.0.1",
+    "dotenv": "^17.2.2",
+    "isomorphic-fetch": "^3.0.0",
+    "node-cron": "^4.2.1",
     "pg": "^8.13.0"
   },
   "devDependencies": {
