@@ -6,7 +6,8 @@ export default async function inviteCreatedHandler({
 }: SubscriberArgs<{
   id: string
 }>) {
-  const query = container.resolve("query")
+  const logger = container.resolve("logger");
+  const query = container.resolve("query");
   const notificationModuleService = container.resolve(
     "notification"
   )
@@ -23,14 +24,13 @@ export default async function inviteCreatedHandler({
     },
   });
 
-  console.log("invite", invite)
+  logger.info(JSON.stringify(invite))
 
   const backend_url = config.admin.backendUrl !== "/" ? config.admin.backendUrl :
     "http://localhost:9000"
   const adminPath = config.admin.path
 
-  console.log("backend_url", backend_url)
-  console.log("adminPath", adminPath)
+  logger.info(JSON.stringify({ backend_url, adminPath }))
 
   const sentData = await notificationModuleService.createNotifications({
     to: invite.email,
@@ -48,7 +48,7 @@ export default async function inviteCreatedHandler({
     }
   })
 
-  console.log("sentData", sentData);
+  logger.info(JSON.stringify(sentData))
 }
 
 export const config: SubscriberConfig = {
