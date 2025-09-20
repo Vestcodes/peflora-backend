@@ -1,4 +1,4 @@
-import { SubscriberArgs, type SubscriberConfig } from "@medusajs/framework"
+import type { SubscriberArgs, SubscriberConfig } from "@medusajs/framework"
 
 export default async function inviteCreatedHandler({
   event: { data },
@@ -21,13 +21,18 @@ export default async function inviteCreatedHandler({
     filters: {
       id: data.id,
     },
-  })
+  });
+
+  console.log("invite", invite)
 
   const backend_url = config.admin.backendUrl !== "/" ? config.admin.backendUrl :
     "http://localhost:9000"
   const adminPath = config.admin.path
 
-  await notificationModuleService.createNotifications({
+  console.log("backend_url", backend_url)
+  console.log("adminPath", adminPath)
+
+  const sentData = await notificationModuleService.createNotifications({
     to: invite.email,
     template: "user-invited",
     channel: "email",
@@ -42,6 +47,8 @@ export default async function inviteCreatedHandler({
         `${backend_url}${adminPath}/invite?token=${invite.token}`,
     }
   })
+
+  console.log("sentData", sentData);
 }
 
 export const config: SubscriberConfig = {
