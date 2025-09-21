@@ -16,6 +16,7 @@ export default defineMiddlewares({
 			matcher: "/store/reviews",
 			middlewares: [
 				authenticate("customer", ["session", "bearer"]),
+				// @ts-ignore - validateAndTransformBody is not exported from @medusajs/framework/http
 				validateAndTransformBody(PostStoreReviewSchema),
 			],
 		},
@@ -44,6 +45,7 @@ export default defineMiddlewares({
 			matcher: "/admin/reviews/status",
 			method: ["POST"],
 			middlewares: [
+				// @ts-ignore - validateAndTransformBody is not exported from @medusajs/framework/http
 				validateAndTransformBody(PostAdminUpdateReviewsStatusSchema),
 			],
 		},

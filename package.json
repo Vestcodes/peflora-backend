@@ -15,7 +15,7 @@
   "scripts": {
     "build": "medusa build",
     "seed": "medusa exec ./src/scripts/seed.ts",
-    "start": "NODE_ENV=production medusa start --port ${PORT} --max-old-space-size=418",
+    "start": "NODE_ENV=production medusa start --port ${PORT} --cluster 0.5",
     "dev": "medusa develop",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
     "test:integration:modules": "TEST_TYPE=integration:modules NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
@@ -41,7 +41,8 @@
     "medusa-plugin-razorpay-v2": "^0.1.2",
     "node-cron": "^4.2.1",
     "nodemailer": "^7.0.6",
-    "pg": "^8.13.0"
+    "pg": "^8.13.0",
+    "zod": "^4.1.11"
   },
   "devDependencies": {
     "@medusajs/test-utils": "2.10.2",
