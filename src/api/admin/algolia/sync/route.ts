@@ -9,7 +9,7 @@ export async function POST(
   await eventModuleService.emit({
     name: "algolia.sync",
     data: {},
-  })
+  });
   res.send({
     message: "Syncing data to Algolia",
   })

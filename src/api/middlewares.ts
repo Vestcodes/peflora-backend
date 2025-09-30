@@ -8,6 +8,7 @@ import { GetAdminReviewsSchema } from "./admin/reviews/route";
 import { PostAdminUpdateReviewsStatusSchema } from "./admin/reviews/status/route";
 import { GetStoreReviewsSchema } from "./store/products/[id]/reviews/route";
 import { PostStoreReviewSchema } from "./store/reviews/route";
+import { storeSearchRoutesMiddlewares } from './store/search/middlewares';
 
 export default defineMiddlewares({
 	routes: [
@@ -68,4 +69,5 @@ export default defineMiddlewares({
 			],
 		},
 	],
+	...storeSearchRoutesMiddlewares
 });
