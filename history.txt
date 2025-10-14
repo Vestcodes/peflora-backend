@@ -1,0 +1,36 @@
+diff --git a/medusa-config.ts b/medusa-config.ts
+index 6f3fa51..112d95b 100644
+--- a/medusa-config.ts
++++ b/medusa-config.ts
+@@ -124,7 +124,7 @@ module.exports = defineConfig({
+ 				providers: [
+ 					{
+ 						resolve:
+-							"medusa-plugin-razorpay-v2/providers/payment-razorpay/src",
++							"@devx-commerce/razorpay/providers/payment-razorpay",
+ 						id: "razorpay",
+ 						options: {
+ 							key_id: "rzp_test_RRmW6VLJlUqwHW",
+@@ -133,7 +133,9 @@ module.exports = defineConfig({
+ 							automatic_expiry_period: 30,
+ 							manual_expiry_period: 20,
+ 							refund_speed: "normal",
+-							webhook_secret: "peflora@vestcodes1410"
++							webhook_secret: "peflora@vestcodes1410",
++							auto_capture: true,
++
+ 						}
+ 					}
+ 				]
+diff --git a/package.json b/package.json
+index d5b15f6..a0fa13b 100644
+--- a/package.json
++++ b/package.json
+@@ -22,6 +22,7 @@
+     "test:unit": "TEST_TYPE=unit NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit"
+   },
+   "dependencies": {
++    "@devx-commerce/razorpay": "^0.0.26",
+     "@medusajs/admin-sdk": "2.10.2",
+     "@medusajs/cli": "2.10.2",
+     "@medusajs/event-bus-redis": "^2.10.2",
