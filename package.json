@@ -40,7 +40,6 @@
     "@rsc-labs/medusa-documents-v2": "^0.2.11",
     "@rsc-labs/medusa-products-bought-together-v2": "^0.0.3",
     "@rsc-labs/medusa-wishlist": "^0.0.3",
-    "algoliasearch": "^5.39.0",
     "awilix": "^8.0.1",
     "axios": "^1.12.2",
     "dotenv": "^17.2.2",

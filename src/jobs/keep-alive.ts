@@ -1,13 +1,9 @@
 import type { MedusaContainer } from "@medusajs/framework/types"
 
-export default async function keepAliveJob(container: MedusaContainer) {
-  const logger = container.resolve("logger")
+export default async function keepAliveJob(_container: MedusaContainer) {
   try {
-    const response = await fetch("https://peflora-backend.onrender.com")
-    const data = await response.json()
-    logger.info(`Fetched data: ${JSON.stringify(data)}`)
-  } catch (error) {
-    logger.error(`Fetch failed: ${error.message}`)
+    await fetch("https://peflora-backend.onrender.com")
+  } catch (_error) {
   }
 }
 
