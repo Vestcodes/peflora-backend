@@ -15,6 +15,10 @@
   "scripts": {
     "build": "medusa build",
     "seed": "medusa exec ./src/scripts/seed.ts",
+    "setup-admin": "node setup-admin.js",
+    "setup-products": "node setup-products-standalone.js",
+    "setup-products-cli": "node setup-products-cli.js",
+    "setup-products-framework": "medusa exec ./src/scripts/setup-products-framework.ts",
     "start": "NODE_ENV=production medusa start --port ${PORT}",
     "dev": "medusa develop",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
@@ -22,7 +26,6 @@
     "test:unit": "TEST_TYPE=unit NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit"
   },
   "dependencies": {
-    "@devx-commerce/razorpay": "^0.0.26",
     "@medusajs/admin-sdk": "2.10.2",
     "@medusajs/cli": "2.10.2",
     "@medusajs/event-bus-redis": "^2.10.2",
@@ -33,16 +36,22 @@
     "@mikro-orm/migrations": "6.4.3",
     "@mikro-orm/postgresql": "6.4.3",
     "@perseidesjs/notification-nodemailer": "^1.1.0",
+    "@prisma/client": "6.17.1",
     "@rsc-labs/medusa-documents-v2": "^0.2.11",
     "@rsc-labs/medusa-products-bought-together-v2": "^0.0.3",
     "@rsc-labs/medusa-wishlist": "^0.0.3",
     "algoliasearch": "^5.39.0",
     "awilix": "^8.0.1",
+    "axios": "^1.12.2",
     "dotenv": "^17.2.2",
     "isomorphic-fetch": "^3.0.0",
+    "medusa-plugin-razorpay-v2": "^0.1.2",
     "node-cron": "^4.2.1",
     "nodemailer": "^7.0.6",
     "pg": "^8.13.0",
+    "prisma": "^6.17.1",
+    "razorpay": "^2.9.6",
+    "tsx": "^4.20.6",
     "zod": "^4.1.11"
   },
   "devDependencies": {

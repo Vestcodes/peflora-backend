@@ -26,3 +26,4 @@ build
 .medusa
 *-lock.*
 *.lock
+/generated/prisma

@@ -1,0 +1,469 @@
+[
+    {
+        "name": "Secret Killer (Old Pack)",
+        "description": "Unleash your bold side with Secret Killer by Peflora. A fragrance crafted for those who own the night and command attention with every step. This intense blend of woody, amber, and cedar notes, balanced with a touch of fresh muguet, creates an aura of mystery and irresistible charm. Perfect for evening wear, its long-lasting essence ensures you stay unforgettable from dusk till dawn. Make your presence felt, leave a trail of intrigue, and let your scent do the talking—because some secrets are meant to be shared.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Body Perfumes",
+        "price": "1199",
+        "sellingPrice": "579"
+    },
+    {
+        "name": "Velvet Temptation",
+        "description": "Indulge in the irresistible charm of Velvet Temptation by Peflora. A luxurious fragrance that blends sensual floral notes with warm, velvety undertones, creating an aura of elegance and passion. Soft yet seductive, this perfume is perfect for those who love to make an unforgettable impression. Its long-lasting formula wraps you in sophistication, making every moment feel like pure indulgence. Turn ordinary days into extraordinary memories—because with Velvet Temptation, desire is always in the air.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Body Perfumes",
+        "price": "1095",
+        "sellingPrice": "579"
+    },
+    {
+        "name": "Luminous Aura",
+        "description": "Glow with elegance through Luminous Aura by Peflora. A fragrance that radiates confidence and sophistication, designed for those who love to shine effortlessly. Its sparkling floral notes blend seamlessly with soft woody undertones, creating a scent that feels fresh, vibrant, and timeless. Perfect for both day and night, this long-lasting perfume wraps you in a captivating aura that turns heads and leaves a lasting impression. Embrace your light, define your presence, and let your fragrance speak volumes—because your aura deserves to shine.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Mens",
+        "collectionName": "Body Perfumes",
+        "price": "1199",
+        "sellingPrice": "579"
+    },
+    {
+        "name": "Secret Killer",
+        "description": "Unleash your bold side with Secret Killer by Peflora. A fragrance crafted for those who own the night and command attention with every step. This intense blend of woody, amber, and cedar notes, balanced with a touch of fresh muguet, creates an aura of mystery and irresistible charm. Perfect for evening wear, its long-lasting essence ensures you stay unforgettable from dusk till dawn. Make your presence felt, leave a trail of intrigue, and let your scent do the talking—because some secrets are meant to be shared.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                35
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Body Perfumes",
+        "price": "999",
+        "sellingPrice": "379"
+    },
+    {
+        "name": "Secret Crush",
+        "description": "Fall in love with every spray of Secret Crush by Peflora. A playful yet elegant fragrance that captures the magic of unexpected connections. Bursting with citrus fruity freshness, wrapped in a layer of sweet, irresistible warmth, this scent is made for those who love to flirt with life. Perfect for day or night, it lingers softly yet memorably, leaving everyone curious about your secret. Make hearts skip a beat and let your fragrance speak the language of love—because some crushes are meant to last forever.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                35,
+                100
+            ]
+        },
+        "categoryName": "Female",
+        "collectionName": "Body Perfumes",
+        "price": "999",
+        "sellingPrice": "379"
+    },
+    {
+        "name": "Dark Night",
+        "description": "Step into mystery with Dark Night by Peflora. A bold and captivating fragrance designed for those who embrace elegance after dusk. Its rich blend of smoky woods, warm amber, and deep musky tones creates an aura of power and sensuality that lingers all night long. Perfect for evening occasions, this perfume speaks confidence, sophistication, and allure in every note. Make every moment unforgettable—because when the night falls, your story begins with Dark Night.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                35,
+                100
+            ]
+        },
+        "categoryName": "Mens",
+        "collectionName": "Body Perfumes",
+        "price": "999",
+        "sellingPrice": "379"
+    },
+    {
+        "name": "Passion",
+        "description": "Ignite your senses with Passion by Peflora. A fragrance that speaks the language of love and desire, crafted for those who live life with intensity. Bursting with vibrant floral and fruity notes, layered with a touch of sensual warmth, Passion is the perfect balance of elegance and allure. Its long-lasting essence ensures you leave a trail of unforgettable charm wherever you go. Whether for a romantic evening or a bold day out, let Passion be your signature—because true passion never goes unnoticed.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Mens",
+        "collectionName": "Body Perfumes",
+        "price": "1399",
+        "sellingPrice": "999"
+    },
+    {
+        "name": "Musk",
+        "description": "Experience timeless elegance with Musk by Peflora. A classic fragrance that exudes sophistication and subtle sensuality. Its soft musky base blended with delicate floral and woody undertones creates a scent that feels pure, comforting, and effortlessly luxurious. Perfect for everyday wear or special occasions, Musk is designed for those who appreciate understated charm and lasting freshness. Embrace the essence of simplicity with a fragrance that speaks volumes—because true elegance never goes out of style.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Mens",
+        "collectionName": "Body Perfumes",
+        "price": "1299",
+        "sellingPrice": "899"
+    },
+    {
+        "name": "OUD",
+        "description": "Discover the royal essence with Oud by Peflora. A fragrance steeped in luxury, crafted for those who desire depth, power, and unmatched sophistication. With its rich woody base, smoky undertones, and a touch of warm resin, Oud delivers an aura of opulence that commands attention. Perfect for evenings and grand occasions, this long-lasting scent leaves a bold, unforgettable trail. Elevate your presence with a fragrance that speaks of heritage, elegance, and mystery—because true luxury is timeless, and so is Oud.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Body Perfumes",
+        "price": "1550",
+        "sellingPrice": "1099"
+    },
+    {
+        "name": "Glam",
+        "description": "Shine with confidence through Glam by Peflora. A dazzling fragrance created for those who love to turn every moment into a spotlight. Bursting with vibrant floral and fruity notes, layered over soft musky undertones, Glam embodies elegance, style, and a hint of playful charm. Perfect for parties, special occasions, or any day you want to feel extraordinary, its long-lasting formula ensures you stay glamorous from day to night. Own the spotlight, define your vibe, and let Glam be your ultimate statement of confidence and beauty.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Female",
+        "collectionName": "Body Perfumes",
+        "price": "1299",
+        "sellingPrice": "899"
+    },
+    {
+        "name": "Soft Love",
+        "description": "Embrace the tenderness of Soft Love by Peflora. A delicate and romantic fragrance that speaks the language of pure affection. Infused with soft floral notes, creamy musk, and a hint of sweet warmth, this perfume wraps you in an aura of elegance and serenity. Perfect for daytime wear or intimate evenings, its subtle yet long-lasting essence makes every moment feel special. Celebrate love in its purest form with a scent that whispers charm and sophistication—because true love is always soft, yet unforgettable.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Female",
+        "collectionName": "Body Perfumes",
+        "price": "2099",
+        "sellingPrice": "1499"
+    },
+    {
+        "name": "Secret Killer (New Pack)",
+        "description": "Unleash your bold side with Secret Killer by Peflora. A fragrance crafted for those who own the night and command attention with every step. This intense blend of woody, amber, and cedar notes, balanced with a touch of fresh muguet, creates an aura of mystery and irresistible charm. Perfect for evening wear, its long-lasting essence ensures you stay unforgettable from dusk till dawn. Make your presence felt, leave a trail of intrigue, and let your scent do the talking—because some secrets are meant to be shared.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Body Perfumes",
+        "price": "1299",
+        "sellingPrice": "899"
+    },
+    {
+        "name": "Candy",
+        "description": "Step into a world of sweetness and charm with Peflora Candy Women's Perfume, a playful yet elegant fragrance crafted for women who love to shine. Infused with deliciously sweet, fruity, and floral notes, this perfume creates a cheerful aura that lingers beautifully throughout the day.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Female",
+        "collectionName": "Body Perfumes",
+        "price": "1399",
+        "sellingPrice": "999"
+    },
+    {
+        "name": "Sandal Wood",
+        "description": "Experience the timeless elegance of Sandalwood Attar by Peflora. Crafted from the pure essence of sandalwood, this attar exudes a warm, woody aroma that is both soothing and luxurious. Perfect for spiritual rituals, special occasions, or everyday wear, its rich and long-lasting fragrance brings calmness, purity, and sophistication in every drop. Elevate your senses with this classic, earthy indulgence.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                12
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Attar Collection",
+        "price": "450",
+        "sellingPrice": "378"
+    },
+    {
+        "name": "Jasmine Night",
+        "description": "Unveil the magic of Jasmine Night Attar by Peflora. A sensual and enchanting fragrance that blends the rich aroma of blooming jasmine with warm, exotic undertones. Perfect for evening wear or special occasions, its deep, long-lasting scent captures the essence of elegance and romance. Let every drop wrap you in allure and mystery—because nights are meant to be unforgettable.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                12
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Attar Collection",
+        "price": "499",
+        "sellingPrice": "379"
+    },
+    {
+        "name": "Lotus Blue",
+        "description": "Immerse yourself in the serene beauty of Lotus Blue Attar by Peflora. A refreshing and calming fragrance inspired by the purity of blue lotus petals, blended with delicate aquatic and floral notes. Perfect for everyday wear or spiritual moments, this long-lasting attar exudes elegance, peace, and sophistication in every drop. Experience nature's finest essence with a scent that soothes the soul.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                12
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Attar Collection",
+        "price": "649",
+        "sellingPrice": "479"
+    },
+    {
+        "name": "Rose Gold",
+        "description": "Indulge in the royal elegance of Rose Gold Attar by Peflora. A luxurious blend of rich rose petals and warm golden notes, this attar embodies sophistication and timeless charm. Perfect for special occasions or daily wear, its deep, long-lasting aroma evokes romance, grace, and pure indulgence. Let Rose Gold Attar wrap you in an aura of elegance that never fades.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                12
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Attar Collection",
+        "price": "650",
+        "sellingPrice": "579"
+    },
+    {
+        "name": "Rooh 786 attar",
+        "description": "Experience the soulful essence of Rooh 786 Attar by Peflora. A divine blend of rich floral notes, warm spices, and woody undertones, this attar symbolizes purity, serenity, and spiritual elegance. Perfect for prayers, special occasions, or everyday wear, its long-lasting fragrance connects heart and soul with a touch of timeless tradition. Let Rooh 786 be your signature of grace and devotion.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                12
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Attar Collection",
+        "price": "999",
+        "sellingPrice": "786"
+    },
+    {
+        "name": "AL - Rooh",
+        "description": "Embrace the divine elegance of AL-Rooh Attar by Peflora. Crafted with a harmonious blend of precious floral essences, warm woods, and soothing musk, this attar reflects purity, peace, and sophistication. Perfect for spiritual moments, special occasions, or daily wear, its long-lasting aroma lingers beautifully, leaving a sense of serenity and grace. Let AL-Rooh be the soul of your fragrance journey.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                12
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Attar Collection",
+        "price": "1350",
+        "sellingPrice": "1179"
+    },
+    {
+        "name": "Arabian Oud",
+        "description": "Discover the majestic charm of Arabian Oud Attar by Peflora. A rich and exotic blend of deep woody oud, smoky notes, and warm spices, this attar embodies royalty and timeless sophistication. Perfect for grand occasions or when you want to make a bold statement, its long-lasting aroma exudes power, elegance, and mystery. Let Arabian Oud take you on a journey of luxury and tradition.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                12
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Attar Collection",
+        "price": "1450",
+        "sellingPrice": "1229"
+    },
+    {
+        "name": "Eazizi Musk",
+        "description": "Indulge in the pure elegance of Eazizi Musk Attar by Peflora. A soft yet captivating blend of smooth musk, delicate florals, and warm undertones, this attar is a perfect balance of grace and sensuality. Ideal for everyday wear or special moments, its long-lasting aroma wraps you in comfort and sophistication. Experience a fragrance that whispers charm in every drop.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                12
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Attar Collection",
+        "price": "2499",
+        "sellingPrice": "1979"
+    },
+    {
+        "name": "AL - Ahnaf",
+        "description": "Unveil the essence of tradition with AL-Ahnaf Attar by Peflora. A luxurious blend of rich oud, warm spices, and earthy notes, this attar reflects strength, elegance, and timeless charm. Perfect for special occasions or spiritual moments, its long-lasting fragrance leaves a bold yet sophisticated impression. Embrace the heritage of perfumery with a scent that defines grace and power.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                12
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Attar Collection",
+        "price": "1999",
+        "sellingPrice": "1579"
+    },
+    {
+        "name": "Jannatul Laiba attar",
+        "description": "Experience heavenly elegance with Jannatul Laiba Attar by Peflora. A divine fusion of sweet floral notes, soft musk, and warm woody undertones, this attar embodies purity, grace, and serenity. Perfect for spiritual moments, special occasions, or everyday wear, its long-lasting aroma surrounds you with peace and sophistication. Let Jannatul Laiba take you closer to a world of eternal bliss.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                12
+            ]
+        },
+        "categoryName": "Unisex",
+        "collectionName": "Attar Collection",
+        "price": "2350",
+        "sellingPrice": "2179"
+    },
+    {
+        "name": "Chandan [Sandal Wood]",
+        "description": "Fill your space with the calming essence of sandalwood. Peflora's Sandalwood Room Freshener brings a warm, woody aroma that soothes the senses and creates a serene ambiance. Perfect for homes, offices, or prayer rooms—experience freshness that lingers and luxury that feels natural.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Room Freshener",
+        "collectionName": "Sugandhit Spray",
+        "price": "240",
+        "sellingPrice": "182"
+    },
+    {
+        "name": "Gulab [Rose]",
+        "description": "Infuse your space with the timeless beauty of roses. Peflora's Gulab Room Freshener spreads a refreshing floral aroma that feels elegant and soothing. Perfect for any room, it creates an inviting atmosphere that lingers with pure freshness and natural charm.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Room Freshener",
+        "collectionName": "Sugandhit Spray",
+        "price": "240",
+        "sellingPrice": "182"
+    },
+    {
+        "name": "Bela [Jasmine]",
+        "description": "Bring home the soothing fragrance of fresh jasmine. Peflora's Bela Room Freshener fills your space with a sweet, calming floral aroma that refreshes your mood and creates a serene ambiance. Perfect for living rooms, bedrooms, or spiritual spaces—experience elegance in every spray.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Room Freshener",
+        "collectionName": "Sugandhit Spray",
+        "price": "240",
+        "sellingPrice": "182"
+    },
+    {
+        "name": "Fulwari [Flowers]",
+        "description": "Surround yourself with the essence of blooming flowers. Peflora's Fulwari Room Freshener brings a burst of fresh floral fragrance that brightens any space and uplifts your mood. Ideal for homes, offices, or special occasions—experience nature's freshness in every spray.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Room Freshener",
+        "collectionName": "Sugandhit Spray",
+        "price": "240",
+        "sellingPrice": "182"
+    },
+    {
+        "name": "Khatu Shyam",
+        "description": "Bring divine freshness to your space with Khatu Shyam Room Freshener by Peflora. Its soothing floral aroma creates a serene and spiritual ambiance, perfect for prayer rooms, homes, or special occasions. Experience purity and positivity in every spray for a truly blissful environment.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Room Freshener",
+        "collectionName": "Sugandhit Spray",
+        "price": "240",
+        "sellingPrice": "182"
+    },
+    {
+        "name": "Tulsi",
+        "description": "Refresh your home with the purity of Tulsi. Peflora's Tulsi Room Freshener spreads a natural, herbal aroma that energizes your surroundings and creates a serene, positive atmosphere. Perfect for homes, offices, and prayer spaces—experience freshness inspired by nature in every spray.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                100
+            ]
+        },
+        "categoryName": "Room Freshener",
+        "collectionName": "Sugandhit Spray",
+        "price": "240",
+        "sellingPrice": "182"
+    },
+    {
+        "name": "Magic Blend",
+        "description": "Unlock the magic of irresistible fragrances with the Magic Blend Combo by Peflora. A perfect collection of carefully curated scents, blending floral, woody, and sweet notes for every mood and occasion. Ideal for gifting or personal indulgence, this combo delivers luxury, variety, and long-lasting freshness in every bottle. Elevate your fragrance game with the ultimate blend of elegance and charm.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                300
+            ]
+        },
+        "categoryName": "For all",
+        "collectionName": "Gifting Sets",
+        "price": "3000",
+        "sellingPrice": "879"
+    },
+    {
+        "name": "Classy Combo",
+        "description": "Redefine elegance with the Classy Combo by Peflora. A sophisticated set of premium fragrances crafted to suit every mood and occasion. Featuring a perfect blend of woody, floral, and musky notes, this combo is ideal for those who appreciate timeless charm and luxury. Whether for gifting or personal indulgence, the Classy Combo adds a touch of grace to every moment.",
+        "variants": {
+            "unit": "ml",
+            "name": "Size",
+            "values": [
+                300
+            ]
+        },
+        "categoryName": "For all",
+        "collectionName": "Gifting Sets",
+        "price": "2899",
+        "sellingPrice": "1479"
+    }
+]
