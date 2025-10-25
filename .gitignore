@@ -27,3 +27,5 @@ build
 *-lock.*
 *.lock
 /generated/prisma
+
+/generated/prisma
