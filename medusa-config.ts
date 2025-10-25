@@ -21,9 +21,9 @@ module.exports = defineConfig({
 			}
 		},
 		http: {
-			storeCors: process.env.STORE_CORS!,
-			adminCors: process.env.ADMIN_CORS!,
-			authCors: process.env.AUTH_CORS!,
+			storeCors: process.env.STORE_CORS ?? "http://localhost:5173,http://localhost:9000,https://docs.medusajs.com,http://localhost:3000,https://peflora.com,https://admin.peflora.com",
+			adminCors: process.env.ADMIN_CORS ?? "http://localhost:5173,http://localhost:9000,https://docs.medusajs.com,http://localhost:3000,https://peflora.com,https://admin.peflora.com",
+			authCors: process.env.AUTH_CORS ?? "http://localhost:5173,http://localhost:9000,http://localhost:8000,https://docs.medusajs.com,http://localhost:3000,https://peflora.com,https://admin.peflora.com",
 			jwtSecret: process.env.JWT_SECRET!,
 			cookieSecret: process.env.COOKIE_SECRET!,
 		},
