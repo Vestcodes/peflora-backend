@@ -51,6 +51,12 @@ module.exports = defineConfig({
 		path: '/'
 	},
 	modules: [
+		// Banner module
+		{
+			resolve: "./src/modules/banner",
+			enabled: true,
+		},
+		// Notification module
 		{
 			resolve: "@medusajs/medusa/notification",
 			dependencies: [Modules.CACHE, ContainerRegistrationKeys.LOGGER],

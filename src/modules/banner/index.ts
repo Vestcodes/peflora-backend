@@ -1,8 +1,11 @@
-import { Module } from "@medusajs/framework/utils"
-import BannerModuleService from "./service"
+import { ModuleExports } from "@medusajs/types";
+import BannerModuleService from "./service";
 
-export const BANNER_MODULE = "banner"
+const service = BannerModuleService;
 
-export default Module(BANNER_MODULE, {
-  service: BannerModuleService,
-})
+export default {
+  service,
+  load: (container) => {
+    container.register("bannerModuleService", service);
+  },
+} as ModuleExports;
