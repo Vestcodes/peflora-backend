@@ -31,13 +31,15 @@ export const GET = async (
 	req: MedusaRequest & { params: PathParams },
 	res: MedusaResponse
 ) => {
-	const bannerModuleService: any = req.scope.resolve("bannerModuleService");
+	const bannerService = req.scope.resolve("banner") as {
+		getActiveBannersByType: (type: string) => Promise<any[]>;
+	};
 
 	try {
 		const { type } = req.params;
 
 		// Only return active banners for the storefront
-		const banners = await bannerModuleService.getActiveBannersByType(type);
+		const banners = await bannerService.getActiveBannersByType(type);
 
 		// Ensure we don't return more than 5 banners
 		const limitedBanners = banners.slice(0, 5);

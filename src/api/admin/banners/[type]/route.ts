@@ -42,7 +42,10 @@ export const GET = async (
 	req: MedusaRequest & { params: PathParams },
 	res: MedusaResponse
 ) => {
-	const bannerModuleService: any = req.scope.resolve("bannerModuleService");
+	const bannerService = req.scope.resolve("banner") as {
+		getActiveBannersByType: (type: string) => Promise<any[]>;
+		getAllBannersByType: (type: string) => Promise<any[]>;
+	};
 
 	try {
 		const { type } = req.params;
@@ -51,18 +54,18 @@ export const GET = async (
 		let banners;
 
 		if (is_active) {
-			banners = await bannerModuleService.getActiveBannersByType(type);
+			banners = await bannerService.getActiveBannersByType(type);
 		} else {
-			banners = await bannerModuleService.getAllBannersByType(type);
+			banners = await bannerService.getAllBannersByType(type);
 		}
 
 		// Ensure we don't return more than 5 banners
-		banners = banners.slice(0, 5);
+		const limitedBanners = banners.slice(0, 5);
 
 		res.json({
-			banners,
+			banners: limitedBanners,
 			type,
-			count: banners.length,
+			count: limitedBanners.length,
 			max_allowed: 5,
 		});
 	} catch (error) {

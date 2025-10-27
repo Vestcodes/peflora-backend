@@ -80,10 +80,10 @@ export const POST = async (
 	req: MedusaRequest<PostAdminBannersUploadReq>,
 	res: MedusaResponse
 ) => {
-	const bannerModuleService: any = req.scope.resolve("bannerModuleService");
+	const bannerService = req.scope.resolve("banner") as any;
 
 	try {
-		const banner = await bannerModuleService.createBanner(req.validatedBody);
+		const banner = await bannerService.createBanner(req.validatedBody);
 		res.status(201).json({ banner });
 	} catch (error) {
 		if (error.message.includes("Maximum 5 banners")) {

@@ -14,13 +14,15 @@
 import type { MedusaRequest, MedusaResponse } from "@medusajs/framework/http";
 
 export const GET = async (req: MedusaRequest, res: MedusaResponse) => {
-	const bannerModuleService: any = req.scope.resolve("bannerModuleService");
+	const bannerService = req.scope.resolve("banner") as {
+		getActiveBannersByType: (type: string) => Promise<any[]>;
+	};
 
 	try {
 		// Get active banners for both types
 		const [mobileBanners, desktopBanners] = await Promise.all([
-			bannerModuleService.getActiveBannersByType("mobile"),
-			bannerModuleService.getActiveBannersByType("desktop"),
+			bannerService.getActiveBannersByType("mobile"),
+			bannerService.getActiveBannersByType("desktop"),
 		]);
 
 		// Ensure we don't return more than 5 banners per type

@@ -54,7 +54,6 @@ module.exports = defineConfig({
 		// Banner module
 		{
 			resolve: "./src/modules/banner",
-			enabled: true,
 		},
 		// Notification module
 		{
