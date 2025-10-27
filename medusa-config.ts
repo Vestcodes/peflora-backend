@@ -83,13 +83,6 @@ module.exports = defineConfig({
 			},
 		},
 		{
-			resolve: "@medusajs/event-bus-redis",
-			key: "event_bus_redis",
-			options: {
-				redisUrl: `rediss://${process.env.REDIS_USERNAME}:${process.env.REDIS_PASSWORD}@${process.env.REDIS_HOST}:${process.env.REDIS_PORT}`,
-			},
-		},
-		{
 			resolve: "@medusajs/medusa/file",
 			dependencies: [Modules.CACHE, ContainerRegistrationKeys.LOGGER],
 			options: {
@@ -115,6 +108,11 @@ module.exports = defineConfig({
 		},
 		{
 			resolve: "./src/modules/product-review",
+			dependencies: [Modules.CACHE, ContainerRegistrationKeys.LOGGER],
+			options: {},
+		},
+		{
+			resolve: "./src/modules/banner",
 			dependencies: [Modules.CACHE, ContainerRegistrationKeys.LOGGER],
 			options: {},
 		},
@@ -161,14 +159,6 @@ module.exports = defineConfig({
 					},
 				],
 			},
-		},
-		{
-			resolve: "@medusajs/medusa/cache-redis",
-			options: { redisUrl: process.env.REDIS_URL },
-		},
-		{
-			resolve: "@medusajs/medusa/event-bus-redis",
-			options: { redisUrl: process.env.REDIS_URL },
 		},
 		{
 			resolve: "@medusajs/medusa/workflow-engine-redis",
